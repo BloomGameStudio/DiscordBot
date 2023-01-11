@@ -45,7 +45,7 @@ DISCORD_ROLE_TRIGGERS = [
 	{'name':'Graphics & Design','emoji_id':980752213347549234,'role':'Graphics Pod'},
 	{'name':'Backend','emoji_id':846911453839228938,'role':'Backend Pod'},
 	{'name':'Gameplay & Story Pod','emoji_id':961338498525306980,'role':'Gameplay & Story Pod'},
-	{'name':'Operations','emoji_id':945177584768004127,'role':'Operations Pod'},
+	{'name':'Operations','emoji_id':945177584768004127,'role':'Policy & Ops Pod'},
 	{'name':'Financial','emoji_id':887872297082449970,'role':'Donator'},
 ]
 
