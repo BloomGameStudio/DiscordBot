@@ -231,9 +231,9 @@ class CommandManager():
                         await general_channel.send(response)
 
     async def make_user_role(self,user,role=ROLE_WHEN_NEW_USER_CONFIRMED):
-        for role in user.guild.roles:
-            if str(role).startswith(ROLE_WHEN_NEW_USER_CONFIRMED):
-                await user.add_roles(role)
+        for guild_role in user.guild.roles:
+            if str(guild_role).startswith(role):
+                await user.add_roles(guild_role)
 
     async def process_message_for_reaction(self, message):
         lower = message.content.lower()
