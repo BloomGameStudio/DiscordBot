@@ -54,7 +54,7 @@ class DiscordClient(discord.Client):
         for guild in self.guilds:
             if guild.name.startswith(GUILD_TRIGGER):
                 for channel in guild.channels:
-                    if "general" in channel.name:
+                    if "home" in channel.name:
                         return channel
         return None
 
